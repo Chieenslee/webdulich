@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background: url('nentong.jpg');
+    background-size: cover;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.header {
+  background-color: #333;
+  color: #140202;
+  padding: 50px;
+  text-align: center;
+  background-image: url('nentong.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.menu {
+  font-weight: bolder;
+  overflow: hidden;
+}
+.menu ul {
+  align-items: center;
+  background-color: #eee;
+  text-align: center;
+}
+.menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.menu a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+.menu a:hover {
+  transform: scale(1.2);
+  background-color: red;
+  color: yellow;
+}
+.login a {
+  color: white;
+  background-color: rgb(245, 136, 27);
+  padding: 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+  float: right;
+  right: 10px;
+  top: 10px;
+}
+.main {
+  margin-top: 20px;
+  background-color: #666;
+}
+.main h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #333;
+  color: white;
+}
+
+.tourdulich {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align:left;
+}
+.tour {
+    border: 1px solid black;
+    background-color: aqua;
+    width: calc(33.33% - 20px);
+    margin: auto;
+    box-sizing: border-box;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tour a {
+  color: black;
+}
+.tour img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    border: 1px solid black;
+}
+.tour-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    width: 100%; 
+}
+h3 {
+    margin-top: 15px;
+}
+h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center; 
+    color: red;
+}
+.dattour {
+    width: 100%;
+    margin-top: 1px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: rgb(245, 136, 27);
+}
+.dattour a {
+    color: #fff;
+    padding: 10px 20px;
+}
+.uudai {
+  margin-top: 40px;
+  border: 1px solid black;
+  background-color: #666;
+  margin-bottom: 40px;
+}
+
+.uudai h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  background-color: #333;
+}
+
+.uudai-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.uudai-item {
+  width: 400px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color:aqua;
+  text-align: center;
+}
+
+.uudai-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.uudai-item h3 {
+  color: #333;
+}
+
+.uudai-item p {
+  color: #666;
+  text-align: left;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+i{
+    color: white;
+    font-size: 20px;
+    margin-right: 5px;
+}
+@media (max-width: 768px) {
+.tour {
+    width: calc(50% - 20px);
+  }
+}
+@media (max-width: 480px) {
+.tour {
+    width: 100%;
+  }
+}
